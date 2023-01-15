@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.nav-title{
+    color: #131313;
+    font-weight: 2em;
+    font-size: 45px;
+    line-height: 53px;
+    
+}
+/* brand css */
+.brand{
+   display: grid;
+   grid-template-rows: repeat(3,1fr);
+   justify-content: center;
+  
+}
+.brand-heading-1{
+    text-align: center;
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+}
+.brand-heading-2{
+    text-align: center;
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+    padding-bottom: 10px;
+}
+.brand-paragraph{
+    color: #131313;
+      text-align: center;
+}
+.btn-primary{
+   
+    background: #FF900E;
+    border-radius: 8px;
+    height: 64px;
+    width: 180px;
+    margin-left: 200px;
+}
+.banner-img{
+    border-radius: 8px;
+    margin: 50px 230px 40px 230px;
+    
+}
+/* main section */
+.quick{
+    margin-top: 80px;
+    
+}
+
+.quick-list{
+ display: flex;
+}
+ .team-img{
+
+   margin-left: 300px;
+
+}
+.quick-about{
+    margin: 250px 100px;
+}
+.quick-title-1{
+    font-weight: 500;
+   font-size: 45px;
+   color: #727272;
+}
+.quick-title-2{
+    font-weight: 500;
+   font-size: 45px;
+   color: #FF900E;
+   margin-bottom: 30px;
+}
+.quick-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+span{
+    color: #131313;;
+}
+
+/* Features Section */
+.features-section{
+    background-color: whitesmoke;
+}
+.features{
+    display: flex;
+     margin-top: 130px;
+    margin-left:240px ;
+    margin-right: 240px;
+    width: 1440px;
+    height: 1059px;
+    gap: 50px;    
+} 
+
+.feature-heading{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    
+}
+.feature-paragraph{
+    margin: 70px 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.article{
+    background-color:#FFFFFF;
+    border-radius: 8px;
+   
+    margin: 50px 0px;
+}
+.article-heading{
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.article-paragraph{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.architect-img{
+    border-radius: 10px;
+    width: 708px;
+    height: 982px;
+    margin-top: 10px;
+}
+/* Some facts */
+.facts{
+    margin-left: 240px;
+}
+.fact-title{
+    margin: 130px 0 30px 0;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.fact-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
