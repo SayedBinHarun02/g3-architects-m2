@@ -118,9 +118,7 @@ span{
 }
 
 /* Features Section */
-.features-section{
-    background-color: whitesmoke;
-}
+
 .features{
     display: flex;
      margin-top: 130px;
@@ -155,6 +153,7 @@ span{
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 30px;
+    
 }
 .article-paragraph{
     color: #727272;
@@ -195,6 +194,7 @@ span{
     font-size: 16px;
     color: #727272;
     margin-bottom: 100px;
+
 }
 /* icons designing */
 .skill-container{
@@ -206,6 +206,7 @@ span{
     padding: 40px;
     border: 1px solid #FF900E;
     border-radius: 8px;
+    
 }
 .skill-title{
     font-weight: 600;
@@ -217,13 +218,13 @@ span{
 .skill-description{
     color: #727272;
     font-weight: 600;
-    font-size: 20px; 
+    font-size: 20px;
 }
 .skill-img{
     width: 45.22px;
     height: 45.22px;
     align-items: center;
-    padding-left: 60px;
+    padding-left: 50px;
 
 }
 /* sponsor styling */
@@ -254,7 +255,7 @@ span{
     background-color: #FFF4E7;
     border-radius: 8px;
     margin: 50px 150px;
-    padding: 50px 50px;  
+    padding: 50px 70px;  
     width: 1440px;
     height: 10px;
 
@@ -265,10 +266,10 @@ span{
     margin-left:100px ;
 }
 /* responsive */
-@media only screen and(max-width:688px) {
+@media only screen and (max-width:688px)  {
     
-    .nav{
-        
-        grid-template-columns: repeat(1,1fr);
-    }
+    nav{
+        width: 100%;
+        flex-direction: column;
+    } 
 }
