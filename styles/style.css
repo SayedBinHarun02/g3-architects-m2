@@ -170,3 +170,30 @@ span{
     color: #727272;
     margin-bottom: 100px;
 }
+/* icons designing */
+.skill-container{
+    display: flex;
+    gap: 125px;
+    margin: 100px 300px;
+}
+.skill{
+    padding: 40px;
+}
+.skill-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    text-align: center;
+
+}
+.skill-description{
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px; 
+}
+.skill-img{
+    width: 45.22px;
+height: 45.22px;
+align-items: center;
+padding-left: 60px;
+}
