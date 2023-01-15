@@ -253,7 +253,8 @@ span{
     justify-content: center;
     background-color: #FFF4E7;
     border-radius: 8px;
-    padding: 50px 100px;  
+    margin: 50px 150px;
+    padding: 50px 50px;  
     width: 1440px;
     height: 10px;
 
@@ -262,4 +263,12 @@ span{
     text-align: center;
     color: #424242;
     margin-left:100px ;
+}
+/* responsive */
+@media only screen and(max-width:688px) {
+    
+    .nav{
+        
+        grid-template-columns: repeat(1,1fr);
+    }
 }
